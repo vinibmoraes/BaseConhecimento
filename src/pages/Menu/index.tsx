@@ -87,13 +87,13 @@ const Menu = () => {
 
 
                     <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usestatepage")}>UseState </Button> 
-                    <Button sx={{ width: "40%" }} variant="contained">UseEffect</Button>
-                    <Button sx={{ width: "40%" }} variant="contained">UseRef</Button>
-                    <Button sx={{ width: "40%" }} variant="contained">UseContext</Button>
-                    <Button sx={{ width: "40%" }} variant="contained">UseReducer</Button>
-                    <Button sx={{ width: "40%" }} variant="contained">UseCallback</Button>    
-                    <Button sx={{ width: "40%" }} variant="contained">UseMemo</Button>
-                    <Button sx={{ width: "40%" }} variant="contained">UseImperativeHandle</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/useeffectpage")}>UseEffect</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/userefpage")}>UseRef</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usecontextpage")}>UseContext</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usereducerpage")}>UseReducer</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usecallbackpage")}>UseCallback</Button>    
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usememopage")}>UseMemo</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/useimperativehandlepage")}>UseImperativeHandle</Button>
                 </Box>
             </Box>
         </Box>
