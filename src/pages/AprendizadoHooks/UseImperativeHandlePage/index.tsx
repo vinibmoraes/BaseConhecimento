@@ -9,7 +9,7 @@ interface CounterHandles {
 }
 
 // Componente Counter com forwardRef e useImperativeHandle
-const Counter = forwardRef<CounterHandles, {}>((props, ref) => {
+const Counter = forwardRef<CounterHandles, {}>((_, ref) => {
   const [count, setCount] = useState(0);
 
   // Expondo os métodos increment e reset para o componente pai
