@@ -89,7 +89,8 @@ const Menu = () => {
                     <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usestatepage")}>UseState </Button> 
                     <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/useeffectpage")}>UseEffect</Button>
                     <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/userefpage")}>UseRef</Button>
-                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usecontextpage")}>UseContext</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usecontextpage1")}>UseContext1</Button>
+                    <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usecontextpage2")}>UseContext2</Button>
                     <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usereducerpage")}>UseReducer</Button>
                     <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usecallbackpage")}>UseCallback</Button>    
                     <Button sx={{ width: "40%" }} variant="contained" onClick={() => navigate("/usememopage")}>UseMemo</Button>
