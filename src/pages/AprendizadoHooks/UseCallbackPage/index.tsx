@@ -18,7 +18,7 @@ const UseCallbackPage = () => {
   // Usando useCallback para memorizar a função de incremento
   const increment = useCallback(() => {
     setCount(prevCount => prevCount + 1);
-  }, []); // A função `increment` só será recriada se alguma dependência mudar (aqui, não temos dependências)
+  }, []); // A função `increment` só será recriada se alguma dependência mudar (aqui, não temos dependências), mas serve pro exemplo
 
   return (
     <Box sx={{ display: "flex", flexDirection: "column", height: "100vh", bgcolor: "#D2E1DF" }}>
@@ -30,7 +30,7 @@ const UseCallbackPage = () => {
         <Typography variant="h5">UseCallback - Exemplo</Typography>
         <Box sx={{ display: "flex", flexDirection: "column", gap: 2, mt: 3 }}>
           <Typography variant="h6">Contador: {count}</Typography>
-          <Counter increment={increment} /> {/* Passando a função increment memorada */}
+          <Counter increment={increment} /> {/* Passando a função increment memorizada */}
         </Box>
       </Box>
 

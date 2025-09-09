@@ -39,6 +39,7 @@ const UseContextPage1 = () => {
             Alterar nome
           </Button>
         </Box>
+        <Typography variant="h6">ao voltar ao menu e acessar uma das páginas de context, o nome vai estar conforme o alterado aqui</Typography>
       </Box>
 
       <Box sx={{ width: "80%", mx: "auto" }}>

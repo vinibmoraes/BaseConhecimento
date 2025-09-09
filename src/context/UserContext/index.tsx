@@ -22,3 +22,5 @@ export const useUser = () => {
   if (!context) throw new Error("useUser must be used within a UserProvider");
   return context;
 };
+
+// primeiro na interface eu criei o tipo do contexto, depois criei o contexto, depois criei o provider, depois criei o hook para usar o contexto.

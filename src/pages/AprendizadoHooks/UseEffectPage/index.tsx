@@ -48,6 +48,8 @@ const UseEffectPage = () => {
           useEffect: Esse hook é usado para lidar com efeitos colaterais em componentes funcionais. Ele é disparado após a renderização do componente. 
           Podemos usá-lo, por exemplo, para buscar dados de uma API, adicionar event listeners, ou atualizar valores quando uma variável de estado muda. 
           No exemplo acima, sempre que o contador muda, uma mensagem é atualizada automaticamente.
+
+          No exemplo da tela, sempre que o count mudar, atualiza a message.
         </Typography>
       </Box>
     </Box>
@@ -55,3 +57,5 @@ const UseEffectPage = () => {
 };
 
 export default UseEffectPage;
+
+
