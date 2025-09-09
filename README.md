@@ -63,4 +63,4 @@ Ou seja, dessa forma pelo que entendi, ele vai guardando a última informação,
 ---
 
 ### **🔹 UseImperativeHandle:**
-Esse aqui, o que eu entendi, é que ele serve pra definir o que pode ser acessado dentro de um componente. Dessa forma o componente que eu uso pra acessar outro componente, pode ser limitado a não poder alguma função específica.
+Esse aqui, o que eu entendi, é que ele serve pra definir o que pode ser acessado dentro de um componente. Dessa forma o componente que eu uso pra acessar outro componente, pode ser limitado a não poder acessar alguma função específica.
