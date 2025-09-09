@@ -11,19 +11,14 @@ const Menu = () => {
         flexDirection: "column",
         height: "100vh",
         bgcolor: "#D2E1DF",
+        paddingBottom: 10,
+        paddingTop: 0,
         
       }}
     >
-      <Box
-        sx={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          py: 2,
-        }}
-      >
-        <Typography sx={{ mb: 7 }} variant="h5">Central de Conhecimento Básico</Typography>
-      </Box>
+    <Typography variant="h5" textAlign="center" sx={{ mt: 7, mb: 3 }}>
+       Central de Conhecimento Básico
+    </Typography>
 
       <Typography variant="h5" textAlign="center" sx={{ mb: 2 }}>
         Sobre o Projeto
@@ -36,7 +31,7 @@ const Menu = () => {
       <Typography
         variant="body2"
         textAlign="center"
-        sx={{ mt: 2, mb: 7, fontStyle: "italic" }}
+        sx={{ mt: 2, mb: 2, fontStyle: "italic" }}
       >
         Acesse os exemplos de cada conceito através dos botões!
       </Typography>
